@@ -9,4 +9,4 @@ git clone https://github.com/aminobotskek/porfirevich
 ```python3
 import porfirevich
 client=porfirevich.Client()
-text=client.generate_text()['replies']
+text=client.generate_text(prompt="")['replies']
